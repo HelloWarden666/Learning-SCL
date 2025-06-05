@@ -4,7 +4,6 @@ Learning Siemens SCL Language for Automation.
 Software: TIA Portal v17
 
 ```Calculate
-
 //幂运算 Power
 "Calculate_DB".Power.Int_c := "Calculate_DB".Power.Int_b ** "Calculate_DB".Power.Int_a;
 
@@ -22,5 +21,4 @@ Software: TIA Portal v17
 
 //计算 a+(b*c) 在进行幂运算 **2 再 /4 Calculate
 "Calculate_DB".Calculate.Int_d_Output := (("Calculate_DB".Calculate.Int_c_Input * "Calculate_DB".Calculate.Int_b_Input) + "Calculate_DB".Calculate.Int_a_Input) ** 2 / 4;
-
 ```
